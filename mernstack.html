@@ -1,0 +1,1950 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>TechCadd</title>
+    <meta name="robots" content="noindex, follow">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="">
+<style>
+    /* Dark mode styles for mobile menu */
+body.active-dark-mode .popup-mobile-menu {
+    background-color: #0a192f;
+     color: #353535; 
+}
+
+body.active-dark-mode .popup-mobile-menu a {
+     color: #353535; 
+}
+body.active-dark-mode .popup-mobile-menu .inner-top a {
+     color: #353535; 
+}
+
+body.active-dark-mode .popup-mobile-menu .rbt-megamenu {
+    background-color: #273041;
+    color: #ffffff;
+}
+
+body.active-dark-mode .popup-mobile-menu .rbt-megamenu a {
+    color: #ffffff;
+}
+
+body.active-dark-mode .popup-mobile-menu .rbt-short-title {
+    color:  #7d838d
+}
+
+body.active-dark-mode .popup-mobile-menu .social-icon a {
+    
+    color: #353535;
+}
+
+body.active-dark-mode .popup-mobile-menu .rbt-btn-wrapper .rbt-btn {
+    background-color: #0a192f;
+    color: #ffffff;
+}
+
+body.active-dark-mode .popup-mobile-menu .description {
+    color: #353535;
+}
+body.active-dark-mode .popup-mobile-menu .rbt-btn-close i {
+    color: #353535;
+}
+body.active-dark-mode .popup-mobile-menu .rbt-btn-close :hover {
+   
+    color: #ffffff;
+}
+
+/* Theme toggle button styles */
+.theme-toggle {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    color: inherit;
+    padding: 0;
+}
+
+.theme-toggle i {
+    font-size: 18px;
+}
+</style>
+    <!-- CSS
+	============================================ -->
+    <link rel="stylesheet" href="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/css/slick.css">
+    <link rel="stylesheet" href="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/css/slick-theme.css">
+    <link rel="stylesheet" href="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/css/sal.css">
+    <link rel="stylesheet" href="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/css/feather.css">
+    <link rel="stylesheet" href="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/css/euclid-circulara.css">
+    <link rel="stylesheet" href="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/css/swiper.css">
+    <link rel="stylesheet" href="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/css/odometer.css">
+    <link rel="stylesheet" href="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/css/animation.css">
+    <link rel="stylesheet" href="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/css/jquery-ui.css">
+    <link rel="stylesheet" href="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/css/magnigy-popup.min.css">
+    <link rel="stylesheet" href="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/css/plyr.css">
+    <link rel="stylesheet" href="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/css/jodit.min.css">
+
+    <link rel="stylesheet" href="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/css/styles.css">
+</head>
+
+<body>
+
+    <div id="my_switcher" class="my_switcher">
+        <ul>
+            <li>
+                <a href="javascript: void(0);" data-theme="light" class="setColor light">
+                    <img src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/images/sun-01.svg" alt="Sun images"><span title="Light Mode"> Light</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript: void(0);" data-theme="dark" class="setColor dark">
+                    <img src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/images/vector.svg" alt="Vector Images"><span title="Dark Mode"> Dark</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Start Header Area -->
+    <header class="rbt-header rbt-header-10">
+        <div class="rbt-sticky-placeholder"></div>
+
+        <!-- Start Header Top  -->
+        <div
+            class="rbt-header-top rbt-header-top-1 header-space-betwween bg-not-transparent bg-color-darker top-expended-activation">
+            <div class="container-fluid">
+                <div class="top-expended-wrapper">
+                    <div class="top-expended-inner rbt-header-sec align-items-center ">
+                        <div class="rbt-header-sec-col rbt-header-left d-none d-xl-block">
+                            <div class="rbt-header-content">
+                                <!-- Start Header Information List  -->
+                                <div class="header-info">
+                                    <ul class="rbt-information-list">
+                                        <li>
+                                            <a href=""> <span class="d-none d-xxl-block">Email:</span></a>
+                                        </li>
+                                        <li> <a class="d-none d-xxl-block"
+                                                href="mailto:techcadd@gmail.com">techcadd@gmail.com</a>
+                                        </li>
+                                        <li>
+                                            <a href="tel:9888122667"><i class="feather-phone"></i>+919888122667</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- End Header Information List  -->
+                            </div>
+                        </div>
+
+                        <div class="rbt-header-sec-col rbt-header-right mt_md--10 mt_sm--10">
+                            <div class="rbt-header-content justify-content-start justify-content-lg-end">
+                                <div class="header-info d-none d-xl-block">
+                                    <ul class="social-share-transparent">
+                                        <li>
+                                            <a href="https://www.facebook.com/techcaddcomputereducationjalandhar/"><i
+                                                    class="fab fa-facebook-f"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.youtube.com/@techcaddcomputereducation3765"><i
+                                                    class="fab fa-youtube"></i></a>
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="https://in.linkedin.com/company/techcadd-computer-education-pvt-ltd"><i
+                                                    class="fab fa-linkedin-in"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="www.instagram.com/techcadd__jalandhar/"><i
+                                                    class="fab fa-instagram"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="rbt-separator d-none d-xl-block"></div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                 
+                </div>
+            </div>
+        </div>
+        <!-- End Header Top  -->
+        <div class="rbt-header-wrapper header-space-betwween header-sticky">
+            <div class="container-fluid">
+                <div class="mainbar-row rbt-navigation-center align-items-center">
+                    <div class="header-left rbt-header-content">
+                        <div class="header-info">
+                            <div class="logo logo-dark">
+                                <a href="index">
+                                    <img src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/images/TCE-Virtual.png"
+                                        alt="Education Logo Images">
+                                </a>
+                            </div>
+
+                            <div class="logo d-none logo-light">
+                                <a href="index">
+                                    <img src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/images/TCE-N.png"
+                                        alt="Education Logo Images">
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="rbt-main-navigation d-none d-xl-block">
+                        <nav class="mainmenu-nav">
+                            <ul class="mainmenu">
+                                <li class="with-megamenu has-menu-child-item position-static">
+                                    <a href="index">Home </a>
+
+                                </li>
+
+                                <!-- <li class="with-megamenu has-menu-child-item">
+                                    <a href="#">Courses <i class="feather-chevron-down"></i></a>
+                                
+                                    <div class="rbt-megamenu grid-item-2">
+                                        <div class="wrapper">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="mega-top-banner">
+                                                        <div class="content">
+                                                            <h4 class="title">Developer hub</h4>
+                                                            <p class="description">Start building fast, with code samples, key resources and more.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row row--15">
+                                                <div class="col-lg-12 col-xl-6 col-xxl-6 single-mega-item">
+                                                    <h3 class="rbt-short-title">Course Layout</h3>
+                                                    <ul class="mega-menu-item">
+                                                        <li><a href="">Filter One Toggle</a></li>
+                                                        <li><a href="course-filter-one-open">Filter One Open</a></li>
+                                                        <li><a href="course-filter-two-toggle">Filter Two Toggle</a></li>
+                                                        <li><a href="course-filter-two-open">Filter Two Open</a></li>
+                                                        <li><a href="course-with-tab">Course With Tab</a></li>
+                                                        <li><a href="course-with-tab-two">Course With Tab Two</a></li>
+                                                        <li><a href="course-card-2">Course Card Two</a></li>
+                                                        <li><a href="course-card-3">Course Card Three</a></li>
+                                                        <li><a href="course-masonry">Course Masonry</a></li>
+                                                        <li><a href="course-with-sidebar">Course With Sidebar</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-lg-12 col-xl-6 col-xxl-6 single-mega-item">
+                                                    <h3 class="rbt-short-title">Course Layout</h3>
+                                                    <ul class="mega-menu-item">
+                                                        <li><a href="">Course Details</a></li>
+                                                        <li><a href="course-details-2">Course Details Two</a></li>
+                                                        <li><a href="course-details-3">Course Details Three <span class="rbt-badge-card">New</span></a></li>
+                                                        <li><a href="course-details-4">Course Details Four <span class="rbt-badge-card">New</span></a></li>
+                                                        <li><a href="course-details-5">Course Details Five <span class="rbt-badge-card">New</span></a></li>
+                                                        <li><a href="course-details-6">Course Details Six <span class="rbt-badge-card">New</span></a></li>
+                                                        <li><a href="course-details-7">Course Details Seven <span class="rbt-badge-card">New</span></a></li>
+                                                        <li><a href="course-details-8">Course Details Eight <span class="rbt-badge-card">New</span></a></li>
+                                                        <li><a href="">Course Lesson <span class="rbt-badge-card">New</span></a></li>
+                                                        <li><a href="create-course">Create Course <span class="rbt-badge-card">New</span></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <ul class="nav-quick-access">
+                                                        <li><a href="#"><i class="feather-folder-minus"></i> Quick Start Guide</a></li>
+                                                        <li><a href="#"><i class="feather-folder-minus"></i> For Open Source</a></li>
+                                                        <li><a href="#"><i class="feather-folder-minus"></i> API Status</a></li>
+                                                        <li><a href="#"><i class="feather-folder-minus"></i> Support</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                  
+                                </li> -->
+
+                                <!-- <li class="has-dropdown has-menu-child-item">
+                                    <a href="#">Dashboard
+                                        <i class="feather-chevron-down"></i>
+                                    </a>
+                                    <ul class="submenu">
+                                        <li class="has-dropdown"><a href="#">Instructor Dashboard</a>
+                                            <ul class="submenu">
+                                                <li><a href="instructor-dashboard">Dashboard</a></li>
+                                                <li><a href="instructor-">Profile</a></li>
+                                                <li><a href="instructor-enrolled-courses">Enrolled Courses</a></li>
+                                                <li><a href="instructor-wishlist">Wishlist</a></li>
+                                                <li><a href="instructor-reviews">Reviews</a></li>
+                                                <li><a href="instructor-my-quiz-attempts">My Quiz Attempts</a></li>
+                                                <li><a href="instructor-order-history">Order History</a></li>
+                                                <li><a href="instructor-course">My Course</a></li>
+                                                <li><a href="instructor-announcements">Announcements</a></li>
+                                                <li><a href="instructor-quiz-attempts">Quiz Attempts</a></li>
+                                                <li><a href="instructor-assignments">Assignments</a></li>
+                                                <li><a href="instructor-settings">Settings</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-dropdown"><a href="#">Student Dashboard</a>
+                                            <ul class="submenu">
+                                                <li><a href="student-dashboard">Dashboard</a></li>
+                                                <li><a href="student-">Profile</a></li>
+                                                <li><a href="student-enrolled-courses">Enrolled Courses</a></li>
+                                                <li><a href="student-wishlist">Wishlist</a></li>
+                                                <li><a href="student-reviews">Reviews</a></li>
+                                                <li><a href="student-my-quiz-attempts">My Quiz Attempts</a></li>
+                                                <li><a href="student-order-history">Order History</a></li>
+                                                <li><a href="student-settings">Settings</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li> -->
+
+                                <li class="with-megamenu has-menu-child-item position-static">
+                                    <a href="#">Courses <i class="feather-chevron-down"></i></a>
+                                    <!-- Start Mega Menu  -->
+                                    <div class="rbt-megamenu grid-item-4">
+                                        <div class="wrapper">
+                                            <div class="row row--15" id="dishant">
+                                                <div class="col-lg-12 col-xl-3 col-xxl-3 single-mega-item" id="d">
+                                                    <h3 class="rbt-short-title">Courses</h3>
+                                                    <ul class="mega-menu-item">
+                                                        <li>
+                                                            <a href="soon">Python Course</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="soon">Java Course </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="soon">C Course</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="soon">C++ Course</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="soon">Kotlin Course</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="Web-Designing">Web Designing Course <sup><span class="rbt-badge-card"style="height: 20px; padding-top: 10px; " >Available</span></sup></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="Web-Development">Web Development Course <sup><span class="rbt-badge-card"style="height: 20px; padding-top: 10px; " >Available</span></sup></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="mernstack">Mern Stack Course<sup><span class="rbt-badge-card"style="height: 20px; padding-top: 10px; " >Available</span></sup></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="soon">Mean Stack Course</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="soon">Php Full Stack Course</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+
+                                                <div class="col-lg-12 col-xl-3 col-xxl-3 single-mega-item" id="d">
+                                                    <h3 class="rbt-short-title">Digital Marketing</h3>
+                                                    <ul class=" mega-menu-item">
+
+                                                        <li>
+                                                            <a href="Digital-marketing">Digital Marketing Course <sup><span class="rbt-badge-card"style="height: 20px; padding-top: 10px; " >Available</span></sup></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="soon">Social Media Marketing Course</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="soon">Google Ads Course </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="soon">Word Press Course</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="soon">Shopify Course</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="soon">Search Engine Optimization
+                                                                Course</a>
+                                                        </li>
+
+                                                    </ul>
+                                                </div>
+
+
+                                                <div class="col-lg-12 col-xl-3 col-xxl-3 single-mega-item" id="d">
+                                                    <h3 class="rbt-short-title"> AI Courses</h3>
+                                                    <ul class="mega-menu-item">
+
+                                                        <li>
+                                                            <a href="soon">Power Bi Course </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="soon">Tableau Course </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="Data-Science">Data Science Course <sup><span class="rbt-badge-card"style="height: 20px; padding-top: 10px; " >Available</span></sup></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="Data-Analytics">Data Analytics Course <sup><span class="rbt-badge-card"style="height: 20px; padding-top: 10px; " >Available</span></sup></a>
+                                                        </li>
+
+                                                        <li>
+                                                            <a href="Machine-Learning">Machine Learning Course <sup><span class="rbt-badge-card"style="height: 20px; padding-top: 10px; " >Available</span></sup></a>
+                                                        </li>
+
+                                                        <li>
+                                                            <a href="soon">Deep Learning Course</a>
+                                                        </li>
+
+                                                        <li>
+                                                            <a href="AI">Artificial Intelligence Course <sup><span class="rbt-badge-card"style="height: 20px; padding-top: 10px; " >Available</span></sup></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-lg-12 col-xl-3 col-xxl-3 single-mega-item" id="d">
+                                                    <h3 class="rbt-short-title">Cyber Courses</h3>
+                                                    <ul class="mega-menu-item">
+
+                                                        <li class="active">
+                                                            <a href="soon">Cyber Security Course </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="soon">Cloud Coputing Course</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="soon">Linux Course</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="soon">Ethical Hacking Course</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-lg-12 col-xl-3 col-xxl-3 single-mega-item" id="d">
+                                                    <h3 class="rbt-short-title">Basic Computer Courses</h3>
+                                                    <ul class="mega-menu-item">
+
+                                                        <li class="active">
+                                                            <a href="soon">Tally | Accounting </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="soon">Ms Office</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="soon">QuickBooks</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="soon">Advance Excel</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Mega Menu  -->
+                                </li>
+
+                                <li class="with-megamenu has-menu-child-item position-static">
+                                    <a href="#">About </a>
+
+                                    <!-- <div class="rbt-megamenu grid-item-3">
+                                        <div class="wrapper">
+                                            <div class="row row--15 single-dropdown-menu-presentation">
+                                                <div class="col-lg-4 col-xxl-4 single-mega-item">
+                                                    <ul class="mega-menu-item">
+                                                        <li><a href="style-guide">Style Guide <span class="rbt-badge-card">Hot</span></a></li>
+                                                        <li><a href="accordion">Accordion</a></li>
+                                                        <li><a href="advancetab">Advance Tab</a></li>
+                                                        <li><a href="about">About <span class="rbt-badge-card">New</span></a></li>
+                                                        <li><a href="brand">Brand</a></li>
+                                                        <li><a href="button">Button</a></li>
+                                                        <li><a href="badge">Badge</a></li>
+                                                        <li><a href="card">Card</a></li>
+                                                        <li><a href="#">& More Coming</a></li>
+                                                    </ul>
+                                                </div>
+
+                                                <div class="col-lg-4 col-xxl-4 single-mega-item">
+                                                    <ul class="mega-menu-item">
+                                                        <li><a href="call-to-action">Call To Action</a></li>
+                                                        <li><a href="counterup">Counter</a></li>
+                                                        <li><a href="category">Categories</a></li>
+                                                        <li><a href="header">Header Style</a></li>
+                                                        <li><a href="newsletter">Newsletter</a></li>
+                                                        <li><a href="team">Team</a></li>
+                                                        <li><a href="social">Social</a></li>
+                                                        <li><a href="list-style">List Style</a></li>
+                                                        <li><a href="#">& More Coming</a></li>
+                                                    </ul>
+                                                </div>
+
+                                                <div class="col-lg-4 col-xxl-4 single-mega-item">
+                                                    <ul class="mega-menu-item">
+                                                        <li><a href="gallery">Gallery</a></li>
+                                                        <li><a href="pricing">Pricing</a></li>
+                                                        <li><a href="progressbar">Progressbar</a></li>
+                                                        <li><a href="testimonial">Testimonial</a></li>
+                                                        <li><a href="service">Service</a></li>
+                                                        <li><a href="split">Split Area</a></li>
+                                                        <li><a href="search">Search Style</a></li>
+                                                        <li><a href="instagram">Instagram Style</a></li>
+                                                        <li><a href="#">& More Coming</a></li>
+                                                    </ul>
+                                                </div>
+
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="btn-wrapper">
+                                                        <a class="rbt-btn btn-gradient hover-icon-reverse square btn-xl w-100 text-center mt--30 hover-transform-none" href="#">
+                                                            <span class="icon-reverse-wrapper">
+                                        <span class="btn-text">Visit Histudy Template</span>
+                                                            <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                                            <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                   -->
+                                </li>
+
+                                <!-- <li class="with-megamenu has-menu-child-item position-static">
+                                    <a href="#">Training<i class="feather-chevron-down"></i></a>
+                                  
+                                    <div class="rbt-megamenu grid-item-3">
+                                        <div class="wrapper">
+                                            <div class="row row--15">
+                                                <div class="col-lg-12 col-xl-4 col-xxl-4 single-mega-item">
+
+                                                    <ul class="mega-menu-item">
+
+                                                        <li><a href="">Induatrial Training</a></li>
+                                                        <li><a href="">45 days Training</a></li>
+                                                        <li><a href="">6 Month Training</a></li>
+                                                        <li><a href="">PHP Training</a></li>
+                                                        <li><a href="">Django Training</a></li>
+                                                        <li><a href="">SEO Training</a></li>
+                                                        <li><a href="">React Training</a></li>
+                                                    </ul>
+                                                </div>
+
+                                                <div class="col-lg-12 col-xl-4 col-xxl-4 single-mega-item">
+                                                    <ul class=" mega-menu-item">
+
+                                                        <li><a
+                                                                href="professional-certificate-program-in-cloud-computing-and-devops.php">Professional
+                                                                Certificate Program in Cloud Computing and DevOps</a>
+                                                        </li>
+                                                        <li><a
+                                                                href="advance-certificate-course-in-artificial-intelligence-and-data-science.php">Advanced
+                                                                Certificate in Artificial Intelligence and Data
+                                                                Science</a></li>
+                                                        <li><a href="#">Professional Certificate Program in Web
+                                                                Designing & Devlopment</a></li>
+                                                        <li><a href="#">Professional Certificate Program in Financial
+                                                                Modelling and Accounting</a></li>
+                                                        <li><a
+                                                                href="certificate-course-in-machine-learning-and-deep-learning.php">Certificate
+                                                                Course in Machine Learning and Deep Learning</a></li>
+                                                        <li><a
+                                                                href="advanced-program-in-cybersecurity-and-ethical-hacking.php">Advanced
+                                                                program in cybersecurity and ethical hacking</a></li>
+
+                                                    </ul>
+                                                </div>
+                                                <div class="col-lg-12 col-xl-4 col-xxl-4 single-mega-item">
+
+                                                    <ul class=" mega-menu-item">
+
+                                                        <li><a href="#"> AutoCad</a></li>
+                                                        <li><a href="#"> Solid Works</a></li>
+                                                        <li><a href="#"> 3Ds Max</a></li>
+                                                        <li><a href="#"> Revit</a></li>
+                                                    </ul>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                  
+                                </li> -->
+                                <li class="with-megamenu has-menu-child-item position-static">
+                                    <a href="#">Contact</a>
+
+
+
+                                </li>
+                                <li class="with-megamenu has-menu-child-item position-static">
+                                    <a href="soon">Weekend Course </a>
+                                </li>
+                                <li  >
+                                    <a href="course/drop-shipping">Drop Shipping <sup> <span class="rbt-badge-card" style="height: 20px; padding-top: 10px; ">New</span></sup>  </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="header-right">
+
+
+
+                        <div class="rbt-btn-wrapper d-none d-xl-block">
+                            <a class="rbt-btn rbt-marquee-btn marquee-auto btn-border-gradient radius-round btn-sm hover-transform-none"
+                                href="login">
+                                <span data-text="Enroll Now">Enroll Now</span>
+                            </a>
+                        </div>
+
+                        <!-- Start Mobile-Menu-Bar -->
+                        <div class="mobile-menu-bar d-block d-xl-none">
+                            <div class="hamberger">
+                                <button class="hamberger-button rbt-round-btn">
+                                    <i class="feather-menu"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- Start Mobile-Menu-Bar -->
+
+                    </div>
+                </div>
+            </div>
+            <!-- Start Search Dropdown  -->
+           
+            <!-- End Search Dropdown  -->
+        </div>
+        <!-- Start Side Vav -->
+
+        <!-- End Side Vav -->
+        <a class="rbt-close_side_menu" href="javascript:void(0);"></a>
+
+    </header>
+
+    <!-- Mobile Menu Section -->
+      <div class="popup-mobile-menu">
+        <div class="inner-wrapper">
+            <div class="inner-top">
+                <div class="content">
+                    <div class="logo">
+                        <div class="logo logo-dark logo-light">
+                                <a href="index">
+                                    <img src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/images/TCE-Virtual.png"
+                                        alt="Education Logo Images">
+                                </a>
+                            </div>
+
+                          
+                    </div>
+                    <div class="rbt-btn-close">
+                        <button class="close-button rbt-round-btn"><i class="feather-x"></i></button>
+                    </div>
+                </div>
+                <p class="description"> Learn new skills, prep for exams, or grow your career—anytime,with TechCadd.</p>
+                <ul class="navbar-top-left rbt-information-list justify-content-start">
+                    <li>
+                        <a href="mailto:techcadd@gmail.com"><i class="feather-mail"></i>techcadd@gmail.com</a>
+                    </li>
+                    <li>
+                        <a href="tel:9888122667"><i class="feather-phone"></i>+91 9888122667</a>
+                    </li>
+                </ul>
+            </div>
+
+            <nav class="mainmenu-nav">
+                <ul class="mainmenu">
+                    <li>
+                        <a href="#">Home </a>
+
+                    </li>
+
+                    <li class="with-megamenu has-menu-child-item">
+                        <a href="#">Courses <i class="feather-chevron-down"></i></a>
+                        <!-- Start Mega Menu  -->
+                        <div class="rbt-megamenu grid-item-2">
+                            <div class="wrapper">
+                                <div class="row">
+                                    <div class="col-lg-12">
+
+                                    </div>
+                                </div>
+                                <div class="row row--15">
+                                    <div class="col-lg-12 col-xl-6 col-xxl-6 single-mega-item">
+                                        <h3 class="rbt-short-title">Python Courses</h3>
+                                        <ul class="mega-menu-item">
+
+                                            <li>
+                                                <a href="soon">Java Course </a>
+                                            </li>
+                                            <li>
+                                                <a href="soon">C Course</a>
+                                            </li>
+                                            <li>
+                                                <a href="soon">C++ Course</a>
+                                            </li>
+                                            <li>
+                                                <a href="soon">Kotlin Course</a>
+                                            </li>
+                                            <li>
+                                                <a href="Web-Designing">Web Designing Course <sup><span class="rbt-badge-card"style="height: 20px; padding-top: 10px; " >Available</span></sup></a>
+                                            </li>
+                                            <li>
+                                                <a href="Web-Development">Web Development Course <sup><span class="rbt-badge-card"style="height: 20px; padding-top: 10px; " >Available</span></sup></a>
+                                            </li>
+                                            <li>
+                                                <a href="mernstack">Mern Stack Course <sup><span class="rbt-badge-card"style="height: 20px; padding-top: 10px; " >Available</span></sup></a>
+                                            </li>
+                                            <li>
+                                                <a href="soon">Mean Stack Course</a>
+                                            </li>
+                                            <li>
+                                                <a href="soon">Php Full Stack Course</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                     <div class="col-lg-12 col-xl-3 col-xxl-3 single-mega-item" id="d">
+                                                    <h3 class="rbt-short-title">Digital Marketing</h3>
+                                                    <ul class=" mega-menu-item">
+
+                                                        <li>
+                                                            <a href="Digital-marketing">Digital Marketing Course <sup><span class="rbt-badge-card"style="height: 20px; padding-top: 10px; " >Available</span></sup> </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="soon">Social Media Marketing Course</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="soon">Google Ads Course </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="soon">Word Press Course</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="soon">Shopify Course</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="soon">Search Engine Optimization
+                                                                Course</a>
+                                                        </li>
+
+                                                    </ul>
+                                                </div>
+                                    <div class="col-lg-12 col-xl-6 col-xxl-6 single-mega-item">
+                                        <h3 class="rbt-short-title">AI Courses</h3>
+                                        <ul class="mega-menu-item">
+
+                                            <li>
+                                                <a href="soon">Power Bi Course </a>
+                                            </li>
+                                            <li>
+                                                <a href="soon">Tableau Course </a>
+                                            </li>
+                                            <li>
+                                                <a href="Data-Science">Data Science Course  <sup><span class="rbt-badge-card"style="height: 20px; padding-top: 10px; " >Available</span></sup></a>
+                                            </li>
+                                            <li>
+                                                <a href="Data-Analytics">Data Analytics Course <sup><span class="rbt-badge-card"style="height: 20px; padding-top: 10px; " >Available</span></sup></a>
+                                            </li>
+
+                                            <li>
+                                                <a href="Machine-Learning">Machine Learning Course <sup><span class="rbt-badge-card"style="height: 20px; padding-top: 10px; " >Available</span></sup></a>
+                                            </li>
+
+                                            <li>
+                                                <a href="soon">Deep Learning Course</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="AI">Artificial Intelligence Course <sup><span class="rbt-badge-card"style="height: 20px; padding-top: 10px; " >Available</span></sup></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                 
+                                    <div class="col-lg-12 col-xl-6 col-xxl-6 single-mega-item">
+                                        <h3 class="rbt-short-title">Cyber Courses</h3>
+                                        <ul class="mega-menu-item">
+
+                                            <li class="active">
+                                                <a href="soon">Cyber Security Course </a>
+                                            </li>
+                                            <li>
+                                                <a href="soon">Cloud Coputing Course</a>
+                                            </li>
+                                            <li>
+                                                <a href="soon">Linux Course</a>
+                                            </li>
+                                            <li>
+                                                <a href="soon">Ethical Hacking Course</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-12 col-xl-6 col-xxl-6 single-mega-item">
+                                        <h3 class="rbt-short-title">Basic Computer Courses</h3>
+                                        <ul class="mega-menu-item">
+
+                                            <li class="active">
+                                                <a href="soon">Tally | Accounting </a>
+                                            </li>
+                                            <li>
+                                                <a href="soon">Ms Office</a>
+                                            </li>
+                                            <li>
+                                                <a href="soon">QuickBooks</a>
+                                            </li>
+                                            <li>
+                                                <a href="soon">Advance Excel</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End Mega Menu  -->
+                    </li>
+
+                    <li>
+                        <a href="#">About
+                           </i>
+                        </a>
+
+                    </li>
+
+
+
+                    <li>
+                        <a href="#">Contact Us </a>
+                        <!-- Start Mega Menu  -->
+
+                        <!-- End Mega Menu  -->
+                    </li>
+
+                    <li class="with-megamenu has-menu-child-item position-static">
+                        <a href="soon">Weekend Courses<i class="feather-chevron-down"></i></a>
+                        <!-- Start Mega Menu  -->
+                        <!-- <div class="rbt-megamenu grid-item-3">
+                            <div class="wrapper">
+                                <div class="row row--15">
+                                    <div class="col-lg-12 col-xl-4 col-xxl-4 single-mega-item">
+                                        <h3 class="rbt-short-title">Blog Styles</h3>
+                                        <ul class="mega-menu-item">
+                                            <li><a href="blog-list">Blog List</a></li>
+                                            <li><a href="blog">Blog Grid</a></li>
+                                            <li><a href="blog-grid-minimal">Blog Grid Minimal</a></li>
+                                            <li><a href="blog-with-sidebar">Blog With Sidebar</a></li>
+                                            <li><a href="">Blog Details</a></li>
+                                            <li><a href="post-format-standard">Post Format Standard</a></li>
+                                            <li><a href="post-format-gallery">Post Format Gallery</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-lg-12 col-xl-4 col-xxl-4 single-mega-item">
+                                        <h3 class="rbt-short-title">Get Started</h3>
+                                        <ul class="mega-menu-item">
+                                            <li><a href="post-format-quote">Post Format Quote</a></li>
+                                            <li><a href="post-format-audio">Post Format Audio</a></li>
+                                            <li><a href="post-format-video">Post Format Video</a></li>
+                                            <li><a href="#">Media Under Title <span class="rbt-badge-card">Coming</span></a></li>
+                                            <li><a href="#">Sticky Sidebar <span class="rbt-badge-card">Coming</span></a></li>
+                                            <li><a href="#">Auto Masonry <span class="rbt-badge-card">Coming</span></a></li>
+                                            <li><a href="#">Meta Overlaid <span class="rbt-badge-card">Coming</span></a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-lg-12 col-xl-4 col-xxl-4 single-mega-item">
+                                        <div class="rbt-ads-wrapper">
+                                            <a class="d-block" href="#"><img src="images/mobile-cat.jpg" alt="Education Images"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                        <!-- End Mega Menu  -->
+                    </li>
+                    <li >
+                        <a href="course/drop-shipping">Drop Shipping <sup> <span class="rbt-badge-card" style="height: 20px; padding-top: 10px; ">New</span></sup>  </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="mobile-menu-bottom">
+                <div class="rbt-btn-wrapper mb--20">
+                    <a class="rbt-btn btn-border-gradient radius-round btn-sm hover-transform-none w-100 justify-content-center text-center"
+                        href="login">
+                        <span>Enroll Now</span>
+                    </a>
+                </div>
+
+                <div class="social-share-wrapper">
+                    <span class="rbt-short-title d-block">Find With Us</span>
+                    <ul class="social-icon social-default transparent-with-border justify-content-start mt--20">
+                        <li><a href="https://www.facebook.com/techcaddcomputereducationjalandhar/">
+                                <i class="feather-facebook"></i>
+                            </a>
+                        </li>
+                        <li><a href="https://www.youtube.com/@techcaddcomputereducation3765">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li><a href="www.instagram.com/techcadd__jalandhar/">
+                                <i class="feather-instagram"></i>
+                            </a>
+                        </li>
+                        <li><a href="https://in.linkedin.com/company/techcadd-computer-education-pvt-ltd">
+                                <i class="feather-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Start Side Vav -->
+   
+    <!-- End Side Vav -->
+    <a class="close_side_menu" href="javascript:void(0);"></a>
+
+    <!-- Start breadcrumb Area -->
+    <div class="rbt-breadcrumb-default rbt-breadcrumb-style-3">
+        <div class="breadcrumb-inner breadcrumb-dark">
+            <img src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/images/bg-image-10.jpg" alt="Education Images">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="content text-start">
+                        <ul class="page-list">
+                            <li class="rbt-breadcrumb-item"><a href="index">Home</a></li>
+                            <li>
+                                <div class="icon-right"><i class="feather-chevron-right"></i></div>
+                            </li>
+                            <li class="rbt-breadcrumb-item active">Mern Stack</li>
+                        </ul>
+                        <h2 class="title">Create full-stack web apps using MongoDB, Express, React, and Node.js.
+                        </h2>
+                        <p class="description"> Get hands-on with the MERN stack to build dynamic, scalable apps. Ideal
+                            for future full-stack developers and startup coders.
+                        </p>
+
+                        <div class="d-flex align-items-center mb--20 flex-wrap rbt-course-details-feature">
+
+
+
+                            <!-- <div class="feature-sin rating">
+                                <a href="#">4.8</a>
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star"></i></a>
+                            </div>
+
+                            <div class="feature-sin total-rating">
+                                <a class="rbt-badge-4" href="#">215,475 rating</a>
+                            </div>
+
+                            <div class="feature-sin total-student">
+                                <span>616,029 students</span>
+                            </div> -->
+
+                        </div>
+
+                        
+
+                        <ul class="rbt-meta">
+                            <!-- <li><i class="feather-calendar"></i>Last updated 12/2024</li> -->
+                            <li><i class="feather-globe"></i>English</li>
+                            <li><i class="feather-award"></i>Certified Course</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Breadcrumb Area -->
+
+    <div class="rbt-course-details-area ptb--60">
+        <div class="container">
+            <div class="row g-5">
+
+                <div class="col-lg-8">
+                    <div class="course-details-content">
+                        <div class="rbt-course-feature-box rbt-shadow-box thuumbnail">
+                            <img class="w-100" src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/images/MERN-STANK-BANNER.jpg" alt="Card image">
+                        </div>
+
+                        <div class="rbt-inner-onepage-navigation sticky-top mt--30">
+                            <nav class="mainmenu-nav onepagenav">
+                                <ul class="mainmenu">
+                                    <li class="current">
+                                        <a href="#overview">Overview</a>
+                                    </li>
+                                    <li>
+                                        <a href="#coursecontent">Course Content</a>
+                                    </li>
+                                    <li>
+                                        <a href="#details">Details</a>
+                                    </li>
+                                  
+                                </ul>
+                            </nav>
+                        </div>
+
+                        <!-- Start Course Feature Box  -->
+                        <div class="rbt-course-feature-box overview-wrapper rbt-shadow-box mt--30 has-show-more"
+                            id="overview">
+                            <div class="rbt-course-feature-inner has-show-more-inner-content">
+                                <div class="section-title">
+                                    <h4 class="rbt-title-style-3">What you'll learn</h4>
+                                </div>
+                                <p>Whether you're a complete beginner or someone looking to upgrade your development
+                                    skills, Techcadd’s MERN Stack Course is your perfect starting point. Master the
+                                    entire web development process, from creating responsive front-end interfaces to
+                                    building robust back-end systems, using MongoDB, Express.js, React, and Node.js—the
+                                    key technologies for developing fast, scalable, and modern web applications from the
+                                    ground up.
+                                </p>
+
+                                <p> By the end of the course, you’ll confidently create your own professional-grade
+                                    full-stack applications—and even build a portfolio-worthy project inspired by
+                                    real-world platforms. At Techcadd, we don’t just teach you how to code; we empower
+                                    you to develop with logic, creativity, and confidence.
+                                </p>
+
+                                <div class="row g-5 mb--30">
+                                    <!-- Start Feture Box  -->
+                                    <div class="col-lg-6">
+                                        <ul class="rbt-list-style-1">
+                                            <li><i class="feather-check"></i>Start from scratch, no prior experience
+                                                needed</li>
+                                            <li><i class="feather-check"></i> Learn to build front-end interfaces using
+                                                React and modern JavaScript
+                                            </li>
+                                            <li><i class="feather-check"></i> Create back-end logic and REST APIs with
+                                                Node.js and Express.js
+                                            </li>
+                                            <li><i class="feather-check"></i>Manage data efficiently with MongoDB, a
+                                                NoSQL database
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- End Feture Box  -->
+
+                                    <!-- Start Feture Box  -->
+                                    <div class="col-lg-6">
+                                        <ul class="rbt-list-style-1">
+                                            <li><i class="feather-check"></i> Build dynamic, single-page applications
+                                                with real-time features
+                                            </li>
+                                            <li><i class="feather-check"></i> Work on real-world projects that showcase
+                                                your skills </li>
+                                            <li><i class="feather-check"></i> Learn to deploy your applications and
+                                                optimize performance
+
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <!-- End Feture Box  -->
+                                </div>
+                                <p> Your Full-Stack Developer Journey Begins Here — Only at Techcadd
+                                    Developing full-stack applications isn’t just about writing code. It’s about solving
+                                    real problems, building seamless user experiences, and bringing powerful ideas to
+                                    life through technology. At Techcadd, we don’t just teach the MERN Stack—we teach
+                                    you how to think like a full-stack developer, solve challenges creatively, and build
+                                    apps that truly make an impact.
+
+
+                                </p>
+                            </div>
+                            <div class="rbt-show-more-btn">Show More</div>
+                        </div>
+                        <!-- End Course Feature Box  -->
+
+                        <!-- Start Course Content  -->
+                        <div class="course-content rbt-shadow-box coursecontent-wrapper mt--30" id="coursecontent">
+                            <div class="rbt-course-feature-inner">
+                                <div class="section-title">
+                                    <h4 class="rbt-title-style-3">Course Content</h4>
+                                </div>
+                                <div class="rbt-accordion-style rbt-accordion-02 accordion">
+                                    <div class="accordion" id="accordionExampleb2">
+
+                                        <div class="accordion-item card">
+                                            <h2 class="accordion-header card-header" id="headingTwo1">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseTwo1" aria-expanded="true"
+                                                    aria-controls="collapseTwo1"> Intro to MERN Stack
+                                                    <!-- <span class="rbt-badge-5 ml--10">1hr
+                                                        30min</span> -->
+                                                </button>
+                                            </h2>
+                                            <div id="collapseTwo1" class="accordion-collapse collapse show"
+                                                aria-labelledby="headingTwo1" data-bs-parent="#accordionExampleb2">
+                                                <div class="accordion-body card-body pr--0">
+                                                    <ul class="rbt-course-main-content liststyle">
+                                                        <li>
+                                                            <a href="">
+                                                                <div class="course-content-left">
+                                                                    <i class="feather-play-circle"></i> <span
+                                                                        class="text">Course Intro</span>
+                                                                </div>
+                                                                <!-- <div class="course-content-right">
+                                                                    <span class="min-lable">30 min</span>
+                                                                    <span class="rbt-badge variation-03 bg-primary-opacity"><i class="feather-eye"></i> Preview</span>
+                                                                </div> -->
+                                                            </a>
+                                                        </li>
+
+                                                        <li>
+                                                            <a href="">
+                                                                <div class="course-content-left">
+                                                                    <i class="feather-play-circle"></i> <span
+                                                                        class="text">What is MERN Stack</span>
+                                                                </div>
+                                                                <!-- <div class="course-content-right">
+                                                                    <span class="min-lable">0.5 min</span>
+                                                                    <span class="rbt-badge variation-03 bg-primary-opacity"><i class="feather-eye"></i> Preview</span>
+                                                                </div> -->
+                                                            </a>
+                                                        </li>
+
+                                                        <li>
+                                                            <a href="">
+                                                                <div class="course-content-left">
+                                                                    <i class="feather-file-text"></i> <span
+                                                                        class="text">Role of a MERN Stack
+                                                                        Developer</span>
+                                                                </div>
+                                                                <div class="course-content-right">
+                                                                    <span class="course-lock"><i
+                                                                            class="feather-lock"></i></span>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="accordion-item card">
+                                            <h2 class="accordion-header card-header" id="headingTwo2">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo2"
+                                                    aria-expanded="false" aria-controls="collapseTwo2">
+                                                    Front End
+                                                    <!-- <span class="rbt-badge-5 ml--10">2hr
+                                                        30min</span> -->
+                                                </button>
+                                            </h2>
+                                            <div id="collapseTwo2" class="accordion-collapse collapse"
+                                                aria-labelledby="headingTwo2" data-bs-parent="#accordionExampleb2">
+                                                <div class="accordion-body card-body pr--0">
+                                                    <ul class="rbt-course-main-content liststyle">
+                                                        <li><a href="">
+                                                                <div class="course-content-left">
+                                                                    <i class="feather-play-circle"></i> <span
+                                                                        class="text">Course Intro</span>
+                                                                </div>
+                                                                <div class="course-content-right">
+                                                                    <!-- <span class="course-lock"><i class="feather-lock"></i></span> -->
+                                                                </div>
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                <div class="course-content-left">
+                                                                    <i class="feather-file-text"></i> <span
+                                                                        class="text">HTML </span>
+                                                                </div>
+                                                                <div class="course-content-right">
+                                                                    <!-- <span class="course-lock"><i class="feather-lock"></i></span> -->
+                                                                </div>
+                                                            </a></li>
+
+                                                        <li><a href="">
+                                                                <div class="course-content-left">
+                                                                    <i class="feather-play-circle"></i> <span
+                                                                        class="text">CSS</span>
+                                                                </div>
+                                                                <div class="course-content-right">
+                                                                    <!-- <span class="course-lock"><i class="feather-lock"></i></span> -->
+                                                                </div>
+                                                            </a></li>
+
+                                                        <li><a href="">
+                                                                <div class="course-content-left">
+                                                                    <i class="feather-file-text"></i> <span
+                                                                        class="text">JavaScript</span>
+                                                                </div>
+                                                                <div class="course-content-right">
+                                                                    <!-- <span class="course-lock"><i class="feather-lock"></i></span> -->
+                                                                </div>
+                                                            </a></li>
+
+
+                                                        <li><a href="">
+                                                                <div class="course-content-left">
+                                                                    <i class="feather-play-circle"></i> <span
+                                                                        class="text">React</span>
+                                                                </div>
+                                                                <div class="course-content-right">
+                                                                    <!-- <span class="course-lock"><i class="feather-lock"></i></span> -->
+                                                                </div>
+                                                            </a></li>
+
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="accordion-item card">
+                                            <h2 class="accordion-header card-header" id="headingTwo3">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo3"
+                                                    aria-expanded="false" aria-controls="collapseTwo3">
+                                                    Understanding Node.js
+                                                    <!-- <span class="rbt-badge-5 ml--10"></span> -->
+                                                </button>
+                                            </h2>
+                                            <div id="collapseTwo3" class="accordion-collapse collapse"
+                                                aria-labelledby="headingTwo3" data-bs-parent="#accordionExampleb2">
+                                                <div class="accordion-body card-body pr--0">
+                                                    <ul class="rbt-course-main-content liststyle">
+                                                        <li><a href="">
+                                                                <div class="course-content-left">
+                                                                    <i class="feather-play-circle"></i> <span
+                                                                        class="text">Setting up Node.js and creating a
+                                                                        server.
+                                                                    </span>
+                                                                </div>
+                                                                <div class="course-content-right">
+                                                                    <!-- <span class="course-lock"><i class="feather-lock"></i></span> -->
+                                                                </div>
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                <div class="course-content-left">
+                                                                    <i class="feather-file-text"></i> <span
+                                                                        class="text">How to work with npm (Node Package
+                                                                        Manager)</span>
+                                                                </div>
+                                                                <div class="course-content-right">
+                                                                    <!-- <span class="course-lock"><i class="feather-lock"></i></span> -->
+                                                                </div>
+                                                            </a></li>
+
+                                                        <li><a href="">
+                                                                <div class="course-content-left">
+                                                                    <i class="feather-play-circle"></i> <span
+                                                                        class="text">Implementing simple server-side
+                                                                        logic</span>
+                                                                </div>
+                                                                <div class="course-content-right">
+                                                                    <!-- <span class="course-lock"><i class="feather-lock"></i></span> -->
+                                                                </div>
+                                                            </a></li>
+
+
+
+
+
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="accordion-item card">
+                                            <h2 class="accordion-header card-header" id="headingTwo4">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo4"
+                                                    aria-expanded="false" aria-controls="collapseTwo4">
+                                                    Express.js and MongoDB
+                                                    <!-- <span class="rbt-badge-5 ml--10"></span> -->
+                                                </button>
+                                            </h2>
+                                            <div id="collapseTwo4" class="accordion-collapse collapse"
+                                                aria-labelledby="headingTwo4" data-bs-parent="#accordionExampleb2">
+                                                <div class="accordion-body card-body pr--0">
+                                                    <ul class="rbt-course-main-content liststyle">
+                                                        <li><a href="">
+                                                                <div class="course-content-left">
+                                                                    <i class="feather-play-circle"></i> <span
+                                                                        class="text">About Express and MongoDB</span>
+                                                                </div>
+                                                                <div class="course-content-right">
+                                                                    <span class="course-lock"><i
+                                                                            class="feather-lock"></i></span>
+                                                                </div>
+                                                            </a></li>
+                                                        <li><a href="">
+                                                                <div class="course-content-left">
+                                                                    <i class="feather-file-text"></i> <span
+                                                                        class="text">manage middleware for handling
+                                                                        requests</span>
+                                                                </div>
+                                                                <div class="course-content-right">
+                                                                    <!-- <span class="course-lock"><i class="feather-lock"></i></span> -->
+                                                                </div>
+                                                            </a></li>
+
+                                                        <li><a href="">
+                                                                <div class="course-content-left">
+                                                                    <i class="feather-play-circle"></i> <span
+                                                                        class="text">Create RESTful APIs
+                                                                    </span>
+                                                                </div>
+                                                                <div class="course-content-right">
+                                                                    <!-- <span class="course-lock"><i class="feather-lock"></i></span> -->
+                                                                </div>
+                                                            </a></li>
+
+                                                        <li><a href="">
+                                                                <div class="course-content-left">
+                                                                    <i class="feather-file-text"></i> <span
+                                                                        class="text">flexible database schemas</span>
+                                                                </div>
+                                                                <div class="course-content-right">
+                                                                    <span class="course-lock"><i
+                                                                            class="feather-lock"></i></span>
+                                                                </div>
+                                                            </a></li>
+
+
+                                                        <li><a href="">
+                                                                <div class="course-content-left">
+                                                                    <i class="feather-play-circle"></i> <span
+                                                                        class="text">CRUD operations </span>
+                                                                </div>
+                                                                <div class="course-content-right">
+                                                                    <span class="course-lock"><i
+                                                                            class="feather-lock"></i></span>
+                                                                </div>
+                                                            </a></li>
+
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Course Content  -->
+
+                        <!-- Start Course Feature Box  -->
+                        <div class="rbt-course-feature-box rbt-shadow-box details-wrapper mt--30" id="details">
+                            <div class="row g-5">
+                                <!-- Start Feture Box  -->
+                                <div>
+                                    <div class="section-title">
+                                        <h4 class="rbt-title-style-3 mb--20">Details</h4>
+                                    </div>
+                                    <p>The MERN stack course has become one of the most popular choices for aspiring web
+                                        developers who want to build modern, full-stack web applications. The MERN stack
+                                        combines four powerful technologies: MongoDB, Express.js, React.js, and Node.js.
+                                        These technologies are widely used across the tech industry for building dynamic
+                                        and scalable web applications, making the full MERN stack course an excellent
+                                        investment for those looking to pursue a career in web development.
+                                        <br>
+
+                                        In conclusion, enrolling in a MERN stack course offers an excellent opportunity
+                                        to gain comprehensive knowledge and practical skills required to become a
+                                        proficient full-stack developer. The MERN stack, which includes MongoDB,
+                                        Express.js, React.js, and Node.js, is widely used in the industry for building
+                                        modern, dynamic, and scalable web applications. By mastering these technologies,
+                                        you'll be equipped to develop both the front-end and back-end of applications,
+                                        making you a versatile and highly sought-after developer.
+
+                                    </p>
+                                </div>
+                                <!-- End Feture Box  -->
+
+                                <!-- Start Feture Box  -->
+                                <!-- <div class="col-lg-6">
+                                    <div class="section-title">
+                                        <h4 class="rbt-title-style-3 mb--20">Description</h4>
+                                    </div>
+                                    <ul class="rbt-list-style-1">
+                                        <li><i class="feather-check"></i>Use the Jupyter Notebook Environment.
+                                            JavaScript developer from scratch.</li>
+                                        <li><i class="feather-check"></i>Use the pandas module with Python to create and
+                                            structure data.</li>
+                                        <li><i class="feather-check"></i>Have a portfolio of various data analysis
+                                            projects.</li>
+                                        <li><i class="feather-check"></i>Create data visualizations using matplotlib and
+                                            the seaborn.</li>
+                                    </ul>
+                                </div> -->
+                                <!-- End Feture Box  -->
+                            </div>
+                        </div>
+                        <!-- End Course Feature Box  -->
+
+                       
+
+                      
+
+                       
+                    </div>
+                    <div class="related-course mt--60">
+                        <div class="row g-5 align-items-end mb--40">
+                            <div class="col-lg-8 col-md-8 col-12">
+                                <div class="section-title">
+                                    <span class="subtitle bg-pink-opacity">Top Course</span>
+                                    <h4 class="title">More Course By <strong class="color-primary">TechCadd</strong>
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-12">
+                                <div class="read-more-btn text-start text-md-end">
+                                    <a class="rbt-btn rbt-switch-btn btn-border btn-sm" href="course">
+                                        <span data-text="View All Course">View All Course</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-5">
+                            <!-- Start Single Card  -->
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-12" data-sal-delay="150" data-sal="slide-up"
+                                data-sal-duration="800">
+                                <div class="rbt-card variation-01 rbt-hover">
+                                    <div class="rbt-card-img">
+                                        <a href="Web-Designing">
+                                            <img src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/images/WEB-DESIGING-BANNER.jpg" alt="Card image">
+
+                                        </a>
+                                    </div>
+                                    <div class="rbt-card-body">
+
+
+                                        <h4 class="rbt-card-title"><a href="Web-Designing">Web Designing</a>
+                                        </h4>
+
+                                        <!-- <ul class="rbt-meta">
+                                            <li><i class="feather-book"></i>12 Lessons</li>
+                                            <li><i class="feather-users"></i>50 Students</li>
+                                        </ul> -->
+
+                                        <p class="rbt-card-text">Learn to create engaging website designs using HTML,
+                                            CSS, and design tools. Ideal for aspiring designers with a flair for
+                                            creativity and visuals.
+                                        </p>
+                                      
+                                        <!-- <div class="rbt-card-bottom">
+                                            <div class="rbt-price">
+                                                <span class="current-price">$60</span>
+                                                <span class="off-price">$120</span>
+                                            </div>
+                                            <a class="rbt-btn-link" href="">Learn
+                                                More<i class="feather-arrow-right"></i></a>
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Card  -->
+
+                            <!-- Start Single Card  -->
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-12" data-sal-delay="150" data-sal="slide-up"
+                                data-sal-duration="800">
+                                <div class="rbt-card variation-01 rbt-hover">
+                                    <div class="rbt-card-img">
+                                        <a href="soon">
+                                            <img src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/images/MOBILE-APP-DEVELOPMENT.jpg" alt="Card image">
+                                        </a>
+                                    </div>
+                                    <div class="rbt-card-body">
+
+                                        <h4 class="rbt-card-title"><a href="soon">App Development</a>
+                                        </h4>
+
+
+                                        <p class="rbt-card-text">Learn Swift, Kotlin, and Flutter. Our online classes
+                                            guide you through the entire app development cycle.</p>
+                                   
+                                        <!-- <div class="rbt-card-bottom">
+                                            <div class="rbt-price">
+                                                <span class="current-price">$60</span>
+                                                <span class="off-price">$120</span>
+                                            </div>
+                                            <a class="rbt-btn-link left-icon" href=""><i
+                                                    class="feather-shopping-cart"></i> Add To Cart</a>
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Card  -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="course-sidebar sticky-top rbt-shadow-box course-sidebar-top rbt-gradient-border">
+                        <div class="inner">
+
+                            <!-- Start Viedo Wrapper  -->
+                            <a class="video-popup-with-text video-popup-wrapper text-center popup-video sidebar-video-hidden mb--15"
+                                href="https://www.youtube.com/watch?v=nA1Aqp0sPQo">
+                                <div class="video-content">
+                                    <img class="w-100 rbt-radius" src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/images/video-01.jpg" alt="Video Images">
+                                    <div class="position-to-top">
+                                        <span class="rbt-btn rounded-player-2 with-animation">
+                                            <span class="play-icon"></span>
+                                        </span>
+                                    </div>
+                                    <span class="play-view-text d-block color-white"><i class="feather-eye"></i> Preview
+                                        this course</span>
+                                </div>
+                            </a>
+                            <!-- End Viedo Wrapper  -->
+
+                            <div class="content-item-content">
+                                <!-- <div
+                                    class="rbt-price-wrapper d-flex flex-wrap align-items-center justify-content-between">
+                                    <div class="rbt-price">
+                                        <span class="current-price">$60.99</span>
+                                        <span class="off-price">$84.99</span>
+                                    </div>
+                                    <div class="discount-time">
+                                        <span class="rbt-badge color-danger bg-color-danger-opacity"><i
+                                                class="feather-clock"></i> 3 days left!</span>
+                                    </div>
+                                </div> -->
+
+                                
+
+                                <div class="buy-now-btn mt--15">
+                                    <a class="rbt-btn btn-border icon-hover w-100 d-block text-center" href="#">
+                                        <span class="btn-text">Buy Now</span>
+                                        <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                    </a>
+                                </div>
+
+                      
+
+
+                                <div class="rbt-widget-details has-show-more">
+                                    <ul class="has-show-more-inner-content rbt-course-details-list-wrapper">
+                                        <li><span>Start Date</span><span class="rbt-feature-value rbt-badge-5">5 Hrs 20
+                                                Min</span>
+                                        </li>
+                                     
+                                        <li><span>Skill Level</span><span
+                                                class="rbt-feature-value rbt-badge-5">Basic</span></li>
+                                        <li><span>Language</span><span
+                                                class="rbt-feature-value rbt-badge-5">English</span></li>
+                                        <li><span>Quizzes</span><span class="rbt-feature-value rbt-badge-5">10</span>
+                                        </li>
+                                        <li><span>Certificate</span><span
+                                                class="rbt-feature-value rbt-badge-5">Yes</span></li>
+                                        <li><span>Pass Percentage</span><span
+                                                class="rbt-feature-value rbt-badge-5">95%</span></li>
+                                    </ul>
+                                    <div class="rbt-show-more-btn">Show More</div>
+                                </div>
+
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="rbt-separator-mid">
+        <div class="container">
+            <hr class="rbt-separator m-0">
+        </div>
+    </div>
+
+    <div class="rbt-related-course-area bg-color-white pt--60 rbt-section-gapBottom">
+        <div class="container">
+            <div class="section-title mb--30">
+                <span class="subtitle bg-primary-opacity">More Similar Courses</span>
+                <h4 class="title">Related Courses</h4>
+            </div>
+            <div class="row g-5">
+
+                <!-- Start Single Card  -->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="rbt-card variation-01 rbt-hover">
+                        <div class="rbt-card-img">
+                            <a href="Digital-marketing">
+                                <img src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/images/DIGITAL-MARKETING-BANNER.jpg" alt="Card image">
+
+                            </a>
+                        </div>
+                        <div class="rbt-card-body">
+
+                            <h4 class="rbt-card-title"><a href="Digital-marketing">Digital Marketing</a>
+                            </h4>
+
+                            <p class="rbt-card-text">Digital marketing uses online platforms to promote products and
+                                engage customerss</p>
+
+                          
+                            <!-- <div class="rbt-card-bottom">
+                                <div class="rbt-price">
+                                    <span class="current-price">$80</span>
+                                    <span class="off-price">$100</span>
+                                </div>
+                                <a class="rbt-btn-link" href="">Learn
+                                    More<i class="feather-arrow-right"></i></a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Card  -->
+
+                <!-- Start Single Card  -->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="rbt-card variation-01 rbt-hover">
+                        <div class="rbt-card-img">
+                            <a href="Data-Science">
+                                <img src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/images/data-science-BANNER.jpg" alt="Card image">
+
+                            </a>
+                        </div>
+                        <div class="rbt-card-body">
+
+
+                            <h4 class="rbt-card-title"><a href="Data-Science">Data Science</a>
+                            </h4>
+
+                            <p class="rbt-card-text">Data science involves analyzing data to extract insights and
+                                support decision-making.</p>
+                           
+
+                            <!-- <div class="rbt-card-bottom">
+                                <div class="rbt-price">
+                                    <span class="current-price">$60</span>
+                                    <span class="off-price">$120</span>
+                                </div>
+                                <a class="rbt-btn-link" href="">Learn
+                                    More<i class="feather-arrow-right"></i></a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Card  -->
+
+                <!-- Start Single Card  -->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="rbt-card variation-01 rbt-hover">
+                        <div class="rbt-card-img">
+                            <a href="Machine-Learning">
+                                <img src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/images/machine-learning.jpg" alt="Card image">
+
+                            </a>
+                        </div>
+                        <div class="rbt-card-body">
+
+                            <h4 class="rbt-card-title"><a href="Machine-Learning">Machine Learning</a>
+                            </h4>
+
+                            <p class="rbt-card-text">Machine learning is a subset of AI that enables computers to learn
+                                from data and improve over time.</p>
+                           
+
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Card  -->
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Start Footer aera -->
+    <footer class="rbt-footer footer-style-1">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row row--15 mt_dec--30">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--30">
+                        <div class="footer-widget">
+                            <div class="logo logo-dark">
+                                <a href="index">
+                                    <img src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/images/TCE-Virtual.png"
+                                        alt="Education Logo Images">
+                                </a>
+                            </div>
+
+                            <div class="logo d-none logo-light">
+                                <a href="index">
+                                    <img src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/images/TCE-N.png"
+                                        alt="Education Logo Images">
+                                </a>
+                            </div>
+
+                            <p class="description mt--20">We’re always in search for talented
+                                and motivated people. Don’t be shy introduce yourself!
+                            </p>
+
+                            <div class="contact-btn mt--30">
+                                <a class="rbt-btn hover-icon-reverse btn-border-gradient radius-round" href="#">
+                                    <div class="icon-reverse-wrapper">
+                                        <span class="btn-text">Contact With Us</span>
+                                        <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                        <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="offset-lg-1 col-lg-2 col-md-6 col-sm-6 col-12 mt--30">
+                        <div class="footer-widget">
+                            <h5 class="ft-title">Courses</h5>
+                            <ul class="ft-link">
+                                    <li><a href="AI">AI Course</a></li>
+                                    <li><a href="mernstack">Mern Stack Course</a></li>
+                                    <li><a href="Data-Analytics">Data Analysis Course</a></li>
+                                    <li><a href="Data-Science">Data Science Course</a></li>
+                                    <li><a href="Digital-marketing">Digital Marketing Course</a></li>
+                                    <li><a href="Machine-Learning">Machine Learning Course</a></li>
+                                    <li><a href="Web-Designing">Web Designing Course</a></li>
+                                    <li><a href="Web-Development">Web Development Course</a></li>
+                                   
+                                </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-12 mt--30">
+                        <div class="footer-widget">
+                            <h5 class="ft-title">Our Branches</h5>
+                            <ul class="ft-link">
+                                <li>
+                                    <a href="https://techcaddcomputerinstitute.com/">Jalandhar-1</a>
+                                </li>
+                                <li>
+                                    <a href="https://techcadd.com/">Jalandhar-2</a>
+                                </li>
+                                <li>
+                                    <a href="https://techcaddludhiana.com/">Ludhiana</a>
+                                </li>
+                                <li>
+                                    <a href="https://techcaddcomputerinstitute.com/Maqsudan-branch/index.php">Maqsudan</a>
+                                </li>
+                                <li>
+                                    <a href="https://techcaddcomputerinstitute.com/Hoshiarpur/">Hoshiarpur</a>
+                                </li>
+                                <li>
+                                    <a href="https://techcaddcomputerinstitute.com/phagwara/">Phagwara</a>
+                                </li>
+                                <li>
+                                    <a href="chandigarh">Chandigarh</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 mt--30">
+                        <div class="footer-widget">
+                            <h5 class="ft-title">Get Contact</h5>
+                            <ul class="ft-link">
+                                <li><span>Phone:</span> <a href="tel:9888122667">9888122667</a></a></li>
+                                <li><span>E-mail:</span> <a href="mailto:techcadd@gmail.com">techcadd@gmail.com</a>
+                                </li>
+                                
+                            </ul>
+                            <ul class="social-icon social-default icon-naked justify-content-start mt--20">
+                                <li><a href="https://www.facebook.com/techcaddcomputereducationjalandhar/">
+                                        <i class="feather-facebook"></i>
+                                    </a>
+                                </li>
+                                <li><a href="https://www.youtube.com/@techcaddcomputereducation3765">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                </li>
+                                <li><a href="www.instagram.com/techcadd__jalandhar/">
+                                        <i class="feather-instagram"></i>
+                                    </a>
+                                </li>
+                                <li><a href="https://in.linkedin.com/company/techcadd-computer-education-pvt-ltd">
+                                        <i class="feather-linkedin"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer aera -->
+    <div class="rbt-separator-mid">
+        <div class="container">
+            <hr class="rbt-separator m-0">
+        </div>
+    </div>
+    <!-- Start Copyright Area  -->
+    <div class="copyright-area copyright-style-1 ptb--20">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-12">
+                    <p class="rbt-link-hover text-center text-lg-start">Copyright © 2025 <a
+                            href="">TechCadd</a> All Rights Reserved</p>
+                </div>
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-12">
+                    <ul
+                        class="copyright-link rbt-link-hover justify-content-center justify-content-lg-end mt_sm--10 mt_md--10">
+                        <li><a href="#">Terms of service</a></li>
+                        <li><a href="">Privacy policy</a></li>
+                        <li><a href="">Subscription</a></li>
+                        <li><a href="login">Login & Register</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Copyright Area  -->
+    <div class="rbt-progress-parent">
+        <svg class="rbt-back-circle svg-inner" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+        </svg>
+    </div>
+
+    <!-- JS
+============================================ -->
+    <!-- Modernizer JS -->
+    <script src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/js/modernizr.min.js"></script>
+    <!-- jQuery JS -->
+    <script src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/js/jquery.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/js/bootstrap.min.js"></script>
+    <!-- sal.js -->
+    <script src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/js/sal.js"></script>
+    <!-- Dark Mode Switcher -->
+    <script src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/js/js.cookie.js"></script>
+    <script src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/js/jquery.style.switcher.js"></script>
+    <script src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/js/swiper.js"></script>
+    <script src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/js/jquery-appear.js"></script>
+    <script src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/js/odometer.js"></script>
+    <script src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/js/backtotop.js"></script>
+    <script src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/js/isotop.js"></script>
+    <script src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/js/imageloaded.js"></script>
+
+    <script src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/js/wow.js"></script>
+    <script src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/js/waypoint.min.js"></script>
+    <script src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/js/easypie.js"></script>
+    <script src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/js/text-type.js"></script>
+    <script src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/js/jquery-one-page-nav.js"></script>
+    <script src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/js/bootstrap-select.min.js"></script>
+    <script src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/js/jquery-ui.js"></script>
+    <script src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/js/magnify-popup.min.js"></script>
+    <script src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/js/paralax-scroll.js"></script>
+    <script src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/js/paralax.min.js"></script>
+    <script src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/js/countdown.js"></script>
+    <script src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/js/plyr.js"></script>
+    <script src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/js/jodit.min.js"></script>
+    <script src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/js/Sortable.min.js"></script>
+
+
+
+    <!-- Main JS -->
+    <script src="https://67fe1b78c00bbf5a3bf8877e.storage.fermion.app/public-cached/custom-page-zip-contents/js/main.js"></script>
+
+ <script>
+        $(function () {
+    // Theme toggle for mobile menu
+    const themeToggle = $('.theme-toggle');
+    const darkModeIcon = $('.dark-mode-icon');
+    const lightModeIcon = $('.light-mode-icon');
+    
+    // Check for saved theme preference
+    function checkTheme() {
+        const activeStyle = Cookies.get("styleCookieName");
+        if (activeStyle == "dark") {
+            $("body").removeClass("active-light-mode").addClass("active-dark-mode");
+            darkModeIcon.addClass('d-none');
+            lightModeIcon.removeClass('d-none');
+        } else {
+            $("body").removeClass("active-dark-mode").addClass("active-light-mode");
+            darkModeIcon.removeClass('d-none');
+            lightModeIcon.addClass('d-none');
+        }
+    }
+    
+    // Initialize theme
+    checkTheme();
+    
+    // Mobile menu theme toggle
+    themeToggle.on('click', function() {
+        if ($("body").hasClass("active-dark-mode")) {
+            // Switch to light mode
+            $("body").removeClass("active-dark-mode").addClass("active-light-mode");
+            Cookies.set("styleCookieName", "light", { expires: 7 });
+            darkModeIcon.removeClass('d-none');
+            lightModeIcon.addClass('d-none');
+        } else {
+            // Switch to dark mode
+            $("body").removeClass("active-light-mode").addClass("active-dark-mode");
+            Cookies.set("styleCookieName", "dark", { expires: 7 });
+            darkModeIcon.addClass('d-none');
+            lightModeIcon.removeClass('d-none');
+        }
+    });
+    
+    // Existing theme switcher functionality
+    function setStyleCookie() {
+        const styleCookieVal = $("body").hasClass("active-dark-mode") ? "dark" : "light";
+        Cookies.set("styleCookieName", styleCookieVal, { expires: 7 });
+    }
+    
+    // Check Cookie on load
+    var activeStyle = Cookies.get("styleCookieName");
+    if (activeStyle == "dark") {
+        $("#my_switcher").find(".setColor.dark").addClass("active");
+        $("body").removeClass("active-light-mode").addClass("active-dark-mode");
+    } else if (activeStyle == "light") {
+        $("#my_switcher").find(".setColor.light").addClass("active");
+        $("body").removeClass("active-dark-mode").addClass("active-light-mode");
+    } else {
+        if ($("body").hasClass("active-dark-mode")) {
+            $("#my_switcher").find(".setColor.light").removeClass("active");
+            $("#my_switcher").find(".setColor.dark").addClass("active");
+        } else {
+            $("#my_switcher").find(".setColor.dark").removeClass("active");
+            $("#my_switcher").find(".setColor.light").addClass("active");
+        }
+    }
+    
+    // Set Click for desktop switcher
+    $("#my_switcher .setColor").on("click", function () {
+        $(this).closest("ul").find("li").siblings().find(".active").removeClass("active");
+        $(this).addClass("active");
+        setStyleCookie();
+        checkTheme(); // Update mobile menu icons
+    });
+    
+    // Add or Remove Class into body when click switcher
+    $("#my_switcher .setColor.dark").on("click", function () {
+        $("body").removeClass("active-light-mode").addClass("active-dark-mode");
+        setStyleCookie();
+        checkTheme(); // Update mobile menu icons
+    });
+    
+    $("#my_switcher .setColor.light").on("click", function () {
+        $("body").removeClass("active-dark-mode").addClass("active-light-mode");
+        setStyleCookie();
+        checkTheme(); // Update mobile menu icons
+    });
+});
+    </script>
+</body>
+
+</html>
