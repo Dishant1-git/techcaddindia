@@ -1,3 +1,44 @@
+/* Force Dark Mode */
+body {
+    background-color: #0a192f !important;
+    color: #f7f9fc !important;
+}
+
+/* Optional: override backgrounds for major sections */
+.rbt-banner-area,
+.rbt-categories-area,
+.rbt-course-area,
+.rbt-about-area,
+.rbt-lesson-area,
+.rbt-callto-action-area,
+.rbt-counterup-area,
+.rbt-course-content,
+.rbt-testimonial-area,
+.rbt-event-area,
+.rbt-rbt-blog-area,
+.rbt-footer,
+.rbt-section-gap,
+.rbt-section-gapBottom {
+    background: transparent !important;
+}
+
+/* Optional: make cards and content blocks dark */
+.rbt-card,
+.rbt-card-body,
+.rbt-card-img,
+.curriculum-modern,
+.curriculum-rightsidebar,
+.module-content {
+    background: #16213a !important;
+    color: #f7f9fc !important;
+}
+
+/* Optional: adjust link colors for dark mode */
+a,
+.rbt-btn-link {
+    color: white !important;
+}
+
 /* Sleek & Modern Curriculum Section Styles */
 .curriculum-modern {
     border-radius: 18px;
@@ -11,6 +52,8 @@
     max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
+  padding-top: 50px;
+  margin-top: 50px;
 }
 
 .curriculum-tabs {
@@ -85,6 +128,63 @@
 .module-content[style*="display:none"] {
     display: none !important;
 }
+
+
+
+.theme-toggle {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    color: inherit;
+    padding: 0;
+}
+
+.theme-toggle i {
+    font-size: 18px;
+}
+
+
+
+/* hover effect for images */
+
+
+.image-row {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  overflow: hidden;
+    margin-top: 100px;
+   
+}
+
+.row-img {
+    border-radius: 10px;
+  height: 400px;        /* Increased and fixed height */
+  width: 100px;         /* Initial (shrunk) width */
+  flex: 1 1 0;
+  object-fit: cover;    /* Prevent image distortion */
+  transition: flex 0.3s ease, width 0.3s ease;
+  cursor: pointer;
+}
+
+/* Enlarge width, keep height fixed when hovered */
+.row-img:hover {
+  flex: 3 1 0;
+  width: 300px;         /* Enlarged width */
+}
+
+/* Other images shrink further on hover, but height stays the same */
+.image-row:hover .row-img:not(:hover) {
+  flex: 0.7 1 0;
+  width: 60px;
+  /* height remains unchanged */
+}
+
+
+
+
+
 @media (max-width: 991px) {
     .curriculum-modern {
         padding: 80px 0;
