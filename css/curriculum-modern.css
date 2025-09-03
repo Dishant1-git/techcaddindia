@@ -195,4 +195,21 @@ a,
     .module-content {
         padding: 16px 8px;
     }
+    .image-row {
+        flex-direction: column;
+    }
+    .row-img {
+        height: 200px;
+        width: 100%;
+    }
+    /* Explicitly override hover and flex effects for .row-img and .image-row on mobile/tablet screens */
+    .row-img,
+    .row-img:hover,
+    .image-row:hover .row-img:not(:hover) {
+        height: 200px;
+        width: 100%;
+        flex: 1 1 0;
+        transition: none;
+        cursor: default;
+    }
 }
