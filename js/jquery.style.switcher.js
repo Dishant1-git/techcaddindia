@@ -368,5 +368,13 @@ SOFTWARE.
       $("body").removeClass("active-dark-mode").addClass("active-light-mode");
       setStyleCookie();
     });
+
+    // Force dark mode as default on page load
+    if (!Cookies.get("styleCookieName") || Cookies.get("styleCookieName") !== "dark") {
+      Cookies.set("styleCookieName", "dark", { expires: 7 });
+      $("body").removeClass("active-light-mode").addClass("active-dark-mode");
+      $("#my_switcher").find(".setColor.dark").addClass("active");
+      $("#my_switcher").find(".setColor.light").removeClass("active");
+    }
   });
 })(jQuery);
