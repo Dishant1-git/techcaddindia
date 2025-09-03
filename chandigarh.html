@@ -90,6 +90,7 @@ body.active-dark-mode .popup-mobile-menu .rbt-btn-close :hover {
     <link rel="stylesheet" href="assets/css/plugins/magnigy-popup.min.css">
     <link rel="stylesheet" href="assets/css/plugins/plyr.css">
     <link rel="stylesheet" href="assets/css/plugins/jodit.min.css">
+    <link rel="stylesheet" href="assets/css/curriculum-modern.css">
 
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
@@ -1002,7 +1003,7 @@ body.active-dark-mode .popup-mobile-menu .rbt-btn-close :hover {
     // Existing theme switcher functionality
     function setStyleCookie() {
         const styleCookieVal = $("body").hasClass("active-dark-mode") ? "dark" : "light";
-        Cookies.set("styleCookieName", styleCookieVal, { expires: 7 });
+        Cookies.set("styleCookieVal", styleCookieVal, { expires: 7 });
     }
     
     // Check Cookie on load
